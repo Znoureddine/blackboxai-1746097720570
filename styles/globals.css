@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for RTL and Arabic font */
+html {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #1a202c; /* Tailwind gray-900 */
+}
